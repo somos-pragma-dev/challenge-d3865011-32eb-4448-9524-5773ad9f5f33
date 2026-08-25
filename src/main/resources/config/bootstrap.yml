@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      name: payment-service
+      profile: default
+      discovery:
+        enabled: true
+        service-id: config-server

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: payment-service
+  aop:
+    auto:
+      proxy-target-class: true
+  axon:
+    eventhandling:
+      processors:
+        payment:
+          mode: tracking
